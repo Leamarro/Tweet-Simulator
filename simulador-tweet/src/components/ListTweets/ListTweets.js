@@ -12,7 +12,7 @@ export default function ListTweets(props) {
   if (!allTweets || allTweets.length === 0) {
     return (
       <div className="list-tweets-empty">
-        <h2>No hay Tweets...</h2>
+        <h2>No hay Tweets....</h2>
       </div>
     );
   }
